@@ -12,7 +12,6 @@
     "tailwindcss": "^3.0.22"
   },
   "dependencies": {
-    "@heroicons/vue": "^1.0.5",
     "esbuild": "^0.14.22"
   }
 }
