@@ -84,7 +84,7 @@
     </div>
     <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl mt-10">
       <div class="text-center">
-        <p>© 2022 Sikker.net ApS</p>
+        <p>© 2022 Thomas Titanium</p>
       </div>
     </div>
   </div>
