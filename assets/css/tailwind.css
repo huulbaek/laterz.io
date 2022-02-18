@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: VT323, system-ui, sans-serif;
+    background: black;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #00ff00
+  }
+}
