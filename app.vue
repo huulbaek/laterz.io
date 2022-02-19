@@ -3,10 +3,10 @@
     <Html lang="en-US">
       <Head>
         <Title>Laterz – procrastination app</Title>
-        <Meta name="description" content="Laterz postpones stuff for later consumption or postponement" />
         <Meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <Meta name="og:image" content="laterz.png" />
-        <Meta name="og:description" content="There is really no reason to do anything today. Do it tomorrow or the next day instead." />
+        <Meta name="og:image" property="og:image" content="laterz.png" />
+        <Meta name="author" content="Thomas Titanium" />
+        <Meta name="description" property="og:description" content="There is really no reason to do anything today. Do it tomorrow or the next day instead. Laterz postpones stuff to better later times." />
         <Link rel="icon" href="favicon.png" />
       </Head>
     </Html>
