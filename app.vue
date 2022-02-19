@@ -1,6 +1,6 @@
 <template>
   <div class="py-16 overflow-hidden lg:py-24 text-green">
-    <Html lang="en-US">
+    <Html lang="en-US" prefix="og: http://ogp.me/ns#">
       <Head>
         <Title>Laterz – procrastination app</Title>
         <Meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
