@@ -62,7 +62,7 @@
           <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img class="relative mx-auto border-green border-2" width="300" src="~/assets/images/screenshot_2.jpg" alt="" />
           </div>
-          <div class="lg:col-start-2">
+          <div class="lg:col-start-2 lg:mt-0 mt-10">
             <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Privacy the only way</h3>
             <p class="mt-3 text-lg text-gray-500">Everything stays on your device and Laterz doesn't share anything with anybody – not even the creator of Laterz.</p>
 
