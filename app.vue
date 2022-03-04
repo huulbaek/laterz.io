@@ -45,7 +45,7 @@
           <video
             loop
             muted
-            poster="~/assets/images/screenshot_1.png"
+            poster="~/assets/images/screenshot_1.jpg"
             playsinline
             controls="true"
             class="border-green border-2 mx-auto relative"
