@@ -3,7 +3,7 @@
     <Html lang="en-US" prefix="og: http://ogp.me/ns#">
       <Head>
         <Title>Laterz – a procrastination app</Title>
-        <Meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <Meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10" />
         <Meta name="image" property="og:image" content="https://laterz.io/laterz.png" />
         <Meta name="author" content="Thomas Titanium" />
         <Meta name="description" property="og:description" content="There is really no reason to do anything today. Do it tomorrow or the next day instead. Laterz postpones stuff to better later times." />
