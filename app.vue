@@ -36,7 +36,7 @@
             </div>
           </dl>
 
-          <div class="mt-5 -mx-4 relative lg:mt-10" aria-hidden="true">
+          <div class="mt-5 -mx-4 relative lg:mt-10">
             <a href="https://apps.apple.com/app/laterz/id1604514744"><img class="relative mx-auto" width="200" src="~/assets/images/app_store.svg" alt="" /></a>
           </div>
         </div>
