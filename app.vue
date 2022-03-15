@@ -41,19 +41,30 @@
           </div>
         </div>
 
-        <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
-          <video
-            loop
-            muted
-            poster="~/assets/images/screenshot_1.jpg"
-            playsinline
-            controls="true"
-            class="border-green border-2 mx-auto relative"
-            width="300"
-          >
-            <source src="~/assets/images/laterz.mov" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+        <div class="mt-10 -mx-4 lg:mt-0" aria-hidden="true">
+          <figure class="relative">
+            <div id="video-controls" class="absolute">
+              <div id="playpause" class="text-4xl text-center cursor-pointer" @click="playPause">
+                <span v-if="!videoIsPlaying">▶</span>
+                <span v-else>||</span>
+              </div>
+            </div>
+            <video
+              id="video"
+              ref="video"
+              preload="metadata"
+              loop
+              muted
+              poster="~/assets/images/screenshot_1.jpg"
+              playsinline
+              controls="true"
+              class="border-green border-2 mx-auto relative"
+              width="300"
+            >
+              <source src="~/assets/images/laterz.mov" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </figure>
         </div>
       </div>
 
@@ -96,6 +107,30 @@
 import './assets/css/tailwind.css'
 import './assets/css/fonts.css'
 import { AnnotationIcon, ShareIcon, LightningBoltIcon, MailIcon, ClockIcon } from '@heroicons/vue/outline'
+import { ref, onMounted } from 'vue'
+
+const video = ref(null)
+var videoIsPlaying = ref(false)
+
+onMounted(() => {
+  var supportsVideo = !!document.createElement('video').canPlayType
+  if (supportsVideo) {
+    var videoControls = document.getElementById('video-controls')
+    video.value.controls = false
+    videoControls.style.display = 'block'
+  }
+})
+
+function playPause() {
+  if (video.value.paused || video.value.ended) {
+    video.value.play()
+    videoIsPlaying.value = true
+  }
+  else {
+    video.value.pause()
+    videoIsPlaying.value = false
+  }
+}
 
 const appFeatures = [
   {
@@ -137,3 +172,11 @@ const privacyFeatures = [
   },
 ]
 </script>
+
+<style>
+  #video-controls {
+    left: 50%;
+    bottom: 5%;
+    z-index:2;
+  }
+</style>
