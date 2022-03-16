@@ -42,11 +42,10 @@
         </div>
 
         <div class="mt-10 -mx-4 lg:mt-0" aria-hidden="true">
-          <figure class="relative">
-            <div id="video-controls" class="absolute">
-              <div id="playpause" class="text-4xl text-center cursor-pointer" @click="playPause">
-                <span v-if="!videoIsPlaying">▶</span>
-                <span v-else>||</span>
+          <figure class="relative cursor-pointer" @click="playPause">
+            <div id="video-controls" class="absolute" v-if="!videoIsPlaying">
+              <div id="playpause">
+                <span class="text-5xl">▶</span>
               </div>
             </div>
             <video
@@ -176,7 +175,20 @@ const privacyFeatures = [
 <style>
   #video-controls {
     left: 50%;
-    bottom: 5%;
-    z-index:2;
+    top: 50%;
+    z-index: 2;
+    width: 65px;
+    height: 65px;
+    background-color: black;
+    border: #00ff00 2px solid;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #video-controls #playpause {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 5px;
   }
 </style>
