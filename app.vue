@@ -5,6 +5,7 @@
         <Title>Laterz – a procrastination app</Title>
         <Meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10" />
         <Meta hid="shareimage" property="og:image" content="https://laterz.io/laterz.png" />
+        <Meta name="apple-itunes-app" content="app-id=1604514744" />
         <Meta name="author" content="Thomas Titanium" />
         <Meta name="description" property="og:description" content="There is really no reason to do anything today. Do it tomorrow or the next day instead. Laterz postpones stuff to better later times." />
         <Link rel="icon" href="favicon.png" />
