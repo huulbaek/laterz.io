@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Laterz.io website
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+The website is built using [Nuxt](https://v3.nuxtjs.org). Deployed on [Vercel](https://vercel.com).
 
 ## Setup
 
@@ -25,5 +25,3 @@ Build the application for production:
 ```bash
 yarn build
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
