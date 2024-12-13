@@ -1,12 +1,12 @@
 // tailwind.config.js
 module.exports = {
-  mode: "jit",
+  mode: 'jit',
   content: [
-    "./components/**/*.{vue,js}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./**/*.vue",
-    "./plugins/**/*.{js,ts}",
+    './components/**/*.{vue,js}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './**/*.vue',
+    './plugins/**/*.{js,ts}',
   ],
   darkMode: true, // or 'media' or 'class'
   theme: {

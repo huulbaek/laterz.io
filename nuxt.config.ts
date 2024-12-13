@@ -1,16 +1,17 @@
-import { defineNuxtConfig } from 'nuxt3'
-
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ],
   build: {
     transpile: ['@heroicons/vue'],
     postcss: {
       postcssOptions: {
         plugins: {
           tailwindcss: {},
-          autoprefixer: {},
         },
       },
     },
   },
+
+  compatibilityDate: '2024-12-13',
 })
