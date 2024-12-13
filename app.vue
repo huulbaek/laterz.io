@@ -39,6 +39,8 @@
 
           <div class="mt-5 -mx-4 relative lg:mt-10">
             <a href="https://apps.apple.com/app/laterz/id1604514744"><img class="relative mx-auto" width="200" src="~/assets/images/app_store.svg" alt="Download Laterz from App Store" /></a>
+            <br>
+            <a href="https://testflight.apple.com/join/ZVZnfhXn"><img class="relative mx-auto" width="200" src="~/assets/images/macos_badge.png" alt="Download Laterz for macOS" /></a>
           </div>
         </div>
 
